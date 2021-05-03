@@ -1,0 +1,61 @@
+.templet {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  body {
+    background: hsl(240, 14%, 90%);
+  }
+  
+  form {
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(5, 5, 5, 0.815);
+    padding: 100px;
+  }
+  
+  label {
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: rgb(207, 26, 26);
+  }
+  
+  input[type="text"] {
+    display: inline-block;
+    border: none;
+    text-align: left;
+    box-shadow: 3px 2px rgba(87, 30, 221, 0.555);
+    padding: 10px;
+    width: 350px;
+    margin: 10px 0;
+    background: transparent;
+    color: rgb(230, 19, 19);
+  }
+  
+  input[type="text"]:focus {
+    background: none;
+    border: none;
+    color: rgb(204, 24, 24);
+  }
+  
+  button {
+    background: transparent;
+    color: rgb(182, 190, 62);
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 20px 0;
+    padding: 10px 30px;
+    border: 2px solid rgb(42, 230, 51);
+  }
+  
+  button:hover {
+    background: transparent;
+    border: 2px solid rgba(69, 39, 160, 0.4);
+  }
+  
